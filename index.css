@@ -1,0 +1,82 @@
+.uploadInfo_left{
+	float: left;
+}
+.refundFont{
+	display: block;
+	padding:18px 0;
+	font-size: 14px;
+}
+.upImg {
+	position: relative;
+}
+.input_img{
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: 10000;
+}
+.complainFileBox{
+	/*overflow: hidden;*/
+}
+.complainFileBox li{
+    float: left;
+    min-height: 60px;
+}
+.complainFileBox li img{
+	width: 65px;
+    height: 65px;
+}
+.posinfo{
+	width: 65px;
+	height: 65px;
+	border: 1px dashed #eee;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.upfont{
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	color: rgb(102,102,102);
+	font-family: "PingFang-SC-Regular";
+	position: absolute;
+    left: 0;
+    top: 36px;
+    right: 0;
+    margin: auto;
+}
+.upImgs{
+	width:28px;
+	height:22px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	right: 0;
+	margin: auto;
+}
+#imgBox{
+	display: none;
+}
+.div_img{
+	position: relative;
+	float: left;
+	margin-right: 10px;
+}
+.div_img img{
+	width: 65px;
+	height: 65px;
+}
+.del_img{
+	position: absolute;
+	right: 0px;
+	top: -8px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(img/DeleteSrc@2x.png) no-repeat;
+	background-size: cover;
+}
